@@ -68,15 +68,7 @@ black: #000
     border-radius: 10px;
 }
 
-
-@media (max-width: 800px) {
-    .toggle-button {
-        display: flex;
-        
-    }
-}
-
-    .navbar-links {
+   .navbar-links {
         display: none;
         width: 100%;
 }
@@ -100,3 +92,13 @@ black: #000
     .navbar-links.active {
         display: flex;
     }
+    
+    
+    
+
+@media (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+        
+    }
+}
