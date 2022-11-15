@@ -43,12 +43,37 @@ body {
     height: auto;
 }
 
+.heroText {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.heroName {
+    color: #c5b358;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.heroTextTop {
+    padding: 1rem;
+}
+
+.heroTextBottom {
+    padding: 1rem;
+}
+
+.heroButton {
+        margin: 2rem;
+}
+
 .button {
     background-color: #fff;
     padding: 1rem;
     border: 1px solid #9277AC;
     border-radius: 25px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     color: #200439;
     text-decoration: none;
@@ -121,6 +146,36 @@ body {
     padding: 1.5rem;
 }
 
+footer {
+    text-align: center;
+    color: #c5b358;
+    margin: 10rem 0:
+    border-top: 1px solid #9277AC;
+}
+
+.copyright {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #c5b358;
+    display: block;
+}
+
+.filler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: 80vh;
+}
+
+
+
+
+
+
+
+
 @media (min-width: 800px) {
     .hero {
         flex-direction: row;
@@ -131,20 +186,16 @@ body {
         
         .heroText {
     font-size: 1rem;
-}
-
-.heroName {
-    font-size: 3.5rem;
-}
-
-.heroTextTop {
-    padding: 1rem;
-}
-    
-    
-.heroButton {
-        margin: 2rem;
-}
+        }
+        
+        .heroName {
+            font-size: 3.5rem;
+        }
+        
+        .button {
+            font-size: 1.1rem;
+        }
+        
 .projectGallery {
     display: flex;
     flex-direction: row;
