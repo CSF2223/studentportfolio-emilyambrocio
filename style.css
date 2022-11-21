@@ -12,7 +12,7 @@ black: #000
 
 html {
     box-sizing: border-box;
-    /* If we add any padding or border onto an element it does not affect the width of the element */ 
+    /* If we add any padding or border onto an element it does not affect the width of the element */
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 
 .heroImage {
     padding: 2rem;
-    
+
 }
 
 .heroImage img {
@@ -65,7 +65,7 @@ body {
 }
 
 .heroButton {
-        margin: 2rem;
+    margin: 2rem;
 }
 
 .button {
@@ -86,7 +86,7 @@ body {
     transform: scale(1.5);
     /* (150% zoom - Note: if the zoom is too large, it will go
         outside of the viewport)*/
-    
+
 }
 
 
@@ -117,6 +117,8 @@ body {
 }
 
 .projectCard h2 {
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    font-weight: 600;
 }
 
 .projectCard p {
@@ -149,7 +151,7 @@ body {
 footer {
     text-align: center;
     color: #c5b358;
-    margin: 10rem 0:
+    margin: 10rem 0;
     border-top: 1px solid #9277AC;
 }
 
@@ -171,39 +173,34 @@ footer {
 
 
 
-
-
-
-
-
-@media (min-width: 800px) {
+@media(min-width: 800px) {
     .hero {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        height:90vh;
-    }
-        
-        .heroText {
-    font-size: 1rem;
-        }
-        
-        .heroName {
-            font-size: 3.5rem;
-        }
-        
-        .button {
-            font-size: 1.1rem;
-        }
-        
-.projectGallery {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+        height: 80vh;
     }
 
-.projectCard {
-    max-width: 20%
+    .heroText {
+        font-size: 1rem;
+    }
+
+    .heroName {
+        font-size: 3.5rem;
+    }
+
+    .button {
+        font-size: 1.1rem;
+    }
+
+    .projectGallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .projectCard {
+        max-width: 20%
+    }
 }
